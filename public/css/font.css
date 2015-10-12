@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:JM;
+    weight:600;
+    src:url(font/JejuMyeongjo-Regular.eot);
+    src:local('※'), url(font/JejuMyeongjo-Regular.woff) format('woff');
+}
+
+@font-face{
+    font-family:NB;
+    weight:600;
+    src:url(font/Neris-Bold.otf.eot);
+    src:local('※'), url(font/Neris-Black.woff) format('woff');
+}
+
+@font-face{
+    font-family:NL;
+    weight:600;
+    src:url(font/Neris-Light.otf.eot);
+    src:local('※'), url(font/Neris-Light.woff) format('woff');
+}
+
+@font-face{
+    font-family:NSB;
+    weight:600;
+    src:url(font/Neris-SemiBold.otf.eot);
+    src:local('※'), url(font/Neris-SemiBold.woff) format('woff');
+}
+
+@font-face{
+    font-family:NT;
+    weight:600;
+    src:url(font/Neris-Thin.otf.eot);
+    src:local('※'), url(font/Neris-Thin.woff) format('woff');
+}
+
+@font-face{
+    font-family:TR;
+    weight:600;
+    src:url(font/times.eot);
+    src:local('※'), url(font/times.woff) format('woff');
+}

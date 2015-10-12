@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html data-ng-app="pprsApp" lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>파피루스</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/placeholders.js/"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </head>
+  <body>
+    <div ng-controller="mainCtrl">
+    <form>
+      <!-- header 영역-->
+      <div id="btn_top" class="navbar-wrapper">
+	<div class="container">
+	  <div class="navbar navbar-inverse navbar-static-top">
+	    <div class="navbar-header">
+	      <!-- <a class="navbar-brand img_bk" href="pprs.html">파피루스</a> -->
+	      <a class="navbar-brand img_bk" href="">파피루스</a>
+	      <div class="sns">
+		<ul>
+		  <li><a href="https://www.facebook.com/pages/Papyrus/1431843287138986" target="_black" class="btn_over img-circle"><span class="facebook">페이스북</span></a></li>
+		  <li><a href="https://www.tumblr.com/blog/papyruseyewear" target="_black" class="btn_over img-circle"><span class="twitter">트위터</span></a></li>
+		  <li><a href="https://instagram.com/papyruseyewear" target="_black" class="btn_over img-circle"><span class="rss">인스타그램</span></a></li>
+		</ul>
+	      </div>
+	      <div class="nav_btn">
+		<button type="button" class="btn_over btn_subs f_strong" data-toggle="modal" data-target="#myEmail">SUBSCRIBE</button>
+		<button type="button" class="navbar-toggle img-circle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div id="navbar" class="gnb_menu navbar-collapse collapse" aria-expanded="false" style="height:2px;">
+	  <ul class="nav navbar-nav">
+	    <li><a class="f_strong">EVENT</a></li>
+	    <li><a class="f_strong">COLLECTION</a></li>
+	    <li><a class="f_strong">ABOUT</a></li>
+	  </ul>
+	</div>
+      </div>
+      <!-- //header 영역-->
+      <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+	  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+	  <div class="item active first-slide">
+	    <img class="pc" src="img/image_01.png" alt="First slide">
+	    <img class="mobile" src="img/m_image_01.png" alt="First slide">
+	    <div class="carousel-caption">
+	      <p><a class="btn btn-sm btn-default f_semi" href="#collection" role="button">READ MORE</a></p>
+	    </div>
+	    
+	  </div>
+	  <div class="item second-slide">
+	    <img class="pc" src="img/image_01.png" alt="Second slide">
+	    <img class="mobile" src="img/m_image_01.png" alt="Second slide">
+	    <div class="carousel-caption">
+	      <p><a class="btn btn-sm btn-default f_semi" href="#collection" role="button">READ MORE</a></p>
+	    </div>
+	  </div>
+	  <div class="item third-slide">
+	    <img class="pc" src="img/image_01.png" alt="Third slide">
+	    <img class="mobile" src="img/m_image_01.png" alt="Third slide">
+	    <div class="carousel-caption">
+	      <p><a class="btn btn-sm btn-default f_semi" href="#collection" role="button">READ MORE</a></p>
+	    </div>
+	  </div>
+	</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	  <span class="btn_slide left" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	  <span class="btn_slide right" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a>
+      </div>
+      <!-- //Carousel -->
+      <!-- About 영역 -->
+ 
+      <div id="collection" class="container about">
+	<div class="row about_wrap">
+	  <div class="col-xs-12 col-sm-5 col-md-6 col-lg-5">
+	    <div class="brand_name">
+	      <div class="top">
+		<strong style="font-weight:bold; font-size:220%;">{{me.card_title}}</strong>
+		<!-- <span class="title f_strong">FIRST<br />{{me.brand}}</span>-->
+		<span class="title f_strong">{{me.card_body | uppercase}}</span>
+		<span>Since {{me.card_since}}, {{me.card_where}}</span>
+	      </div>
+	      <ul class="sns">
+		<li><a href="https://www.facebook.com/pages/Papyrus/1431843287138986" target="_black" class="img_total facebook">Facebook</a></li>
+		<li><a href="https://www.tumblr.com/blog/papyruseyewear" target="_black" class="img_total twitter">Twitter</a></li>
+		<li><a href="https://instagram.com/papyruseyewear" target="_black" class="img_total instar">Instargram</a></li>
+	      </ul>
+	      <p><a href="#event" class="f_strong">ALL COLLECTION</a></p>
+	    </div>
+	  </div>
+	  <div class="col-xs-12 col-sm-7 col-md-6 col-lg-7">
+	    <div class="about_text">
+	      <strong>{{me.about_title}}</strong>
+	      <h2 class="f_strong">ABOUT</h2>
+	      <p>{{me.about_ko}}</p>
+	    </div>
+	  </div>
+	</div><!-- //.row -->
+	<div class="row con_slide">
+	  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+	    <div class="carousel-inner" role="listbox">
+
+	      <div class="item" ng-repeat="i in me.img_container" ng-class="{active : $first}">
+		<img src="{{i.img}}" alt="첫번째 이미지">
+		<div id="tooltip" class="carousel-caption">
+
+		  <!-- 이미지에 들어있는 카드
+		  <div class="infor_tooltip">
+		    <strong class="f_thin">{{me.card_since}}</strong>
+		    <em class="f_strong">STRONGMAN</em>
+		    <span>Flashes of Electric Blue and Aviator Grey</span>
+		    <button type="button" class="tooltip_close">Cloase</button>
+		  </div>
+		  <button type="button" class="tooltip_open img-circle">Open</button>
+		  -->
+
+		</div>
+	      </div>
+
+
+	    </div> <!-- end of img -->
+	    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	      <span class="btn_slide left" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	      <span class="btn_slide right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+
+
+	  <div class="row con_slide_text">
+
+	    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 account pull-right">
+	      <h3 class="f_strong">{{me.about_subtitle}}</h3>
+	      <p>{{me.about_en}}</p>
+	    </div>
+
+	    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 share pull-left">
+	      <h3 class="f_strong">SHARE THIS</h3>
+	      <ul class="sns">
+		<li><a href="https://www.facebook.com/pages/Papyrus/1431843287138986" target="_black" class="btn_over_gray img-circle"><span class="facebook">Facebook</span></a></li>
+		<li><a href="https://www.tumblr.com/blog/papyruseyewear" target="_black" class="btn_over_gray img-circle"><span class="twitter">Twitter</span></a></li>
+		<li><a href="https://instagram.com/papyruseyewear" target="_black" class="btn_over_gray img-circle"><span class="rss">인스타그램</span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	  <p class="btn_top f_strong"><a href="#btn_top">TOP<span></span></a></p>
+	</div>
+      </div>
+
+
+      <!-- //About 영역 -->
+      <!-- List 영역 -->
+      <div id="event" class="list_wrap">
+	<h2 class="f_semi"><span>Our Collection & Past Events</span></h2>
+	<div class="container">
+	  <div class="row">
+
+
+	    <ul>
+		<li ng-repeat="e in event_container" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+		  <a href="#collection" ng-click="event($index)">
+		    <h3 class="f_strong">{{e.card_body | uppercase}}<br />{{e.name}}</h3>
+		    <em>Since {{e.card_since}}, {{e.card_where}}</em>
+		    <span class="f_semi">READ MORE</span>
+		  </a>
+		</li>
+	    </ul>
+
+	    <div ng-if="is_more == true">
+	      <p class="btn_wrap"><button class="btn_more f_strong" ng-click="more()">LOAD MORE</button></p>
+	    </div>
+	    <div ng-if="is_more != true">
+	      <p class="btn_wrap"><button class="btn_more2 f_strong">LOAD MORE</button></p>
+	    </div>
+
+	    <!--
+	    <div ng-if="is_more == true">
+	    <p class="btn_wrap"><button class="btn_more_active f_strong" ng-click="more()">LOAD MORE</button></p>
+	    </div>
+	    <div ng-if="is_more != true">
+	    <p class="btn_wrap"><button class="btn_more f_strong">LOAD MORE</button></p>
+	    </div>
+	    -->
+
+	    <p class="btn_top f_strong"><a href="#btn_top">TOP<span></span></a></p>
+	
+
+
+	  </div>
+	</div>
+      </div>
+      <!-- //List 영역 -->
+      <!-- Location 영역 -->
+      <div id="location" class="location_wrap">
+	<h2 id="map_view">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.124521512536!2d127.02996868150318!3d37.5285618602922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38f9342b8dd%3A0xf235805e324f76a!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsi6Dsgqzrj5kgNjE1!5e0!3m2!1sko!2skr!4v1436259088292" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map apgujung"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.2210714848352!2d126.97815300441027!3d37.56820504957844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed00abb8a9%3A0x7218c644b9544d82!2z7ISc7Jq47Yq567OE7IucIOykkeq1rCDrqoXrj5kgOTc!5e0!3m2!1sko!2skr!4v1436965259303" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map gw"></iframe>
+	  <iframe src="https://goo.gl/maps/uKnQX" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map galleria"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.1926700614913!2d127.12313291349298!3d37.385275582261585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b580327611061%3A0x42ae31d9dc54c814!2z6rK96riw64-EIOyEseuCqOyLnCDrtoTri7nqtawg7Zmp7IOI7Jq466GcMzYw67KI6ri4IDQy!5e0!3m2!1sko!2skr!4v1436964986055" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map ak"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.514067267365!2d126.9402103!3d37.5193776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f3c1822f59f%3A0x81e51bac4441f659!2zNjPruYzrlKk!5e0!3m2!1sko!2skr!4v1436773040129" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map yeoido"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.365222900632!2d127.3781423!3d36.3519315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654be0bb380ce3%3A0xe66c4734692a4b51!2z6rCk65-s66as7JWE67Cx7ZmU7KCQIO2DgOyehOyblOuTnOygkA!5e0!3m2!1sko!2skr!4v1436773143938" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map daejeon"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.3787002864995!2d126.98104254425333!3d37.56077910633883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f15586a565%3A0xb9b435a06e274a5c!2z7ISc7Jq47Yq567OE7IucIOykkeq1rCDstqnrrLTroZwx6rCAIDUyLTU!5e0!3m2!1sko!2skr!4v1436965352741" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map shin"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.173763269019!2d127.00313357293197!3d37.50381967451616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca17a2d6ef023%3A0x598dc115480571d0!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDrsJjtj6zrj5kgMTktMw!5e0!3m2!1sko!2skr!4v1436965414746" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map gangnam"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1582.09061262028!2d127.03798993342842!3d37.527225084425204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca387bba6c033%3A0x890fa11a196ffc2c!2z7YyM7ZS866Oo7Iqk7JWE7J207Juo7Ja0!5e0!3m2!1sko!2skr!4v1436965511732" height="450" frameborder="0" style="width:100%;border:0" allowfullscreen class="map studio"></iframe>
+	</h2>
+	<div class="container">
+	  <div class="row location">
+	    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 location_con">
+	      <h3 class="f_strong">LOCATION</h3>
+	      <p>
+		<a href="#location" class="btn_ap">Apgujung</a>
+		<a href="#location" class="btn_gw">Gwanghwamun</a>
+		<a href="#location" class="btn_gall">Galleria</a>
+		<a href="#location" class="btn_ak">AK Plaza in Bundang</a>
+		<a href="#location" class="btn_yeoido">63 Square in Yeoido</a>
+		<a href="#location" class="btn_daejeon">Timeworld in Daejeon</a>
+		<a href="#location" class="btn_shin">Shinsegae Main</a>
+		<a href="#location" class="btn_gangnam">Shinsegae Gangnam</a>
+		<a href="#location" class="btn_studio">Studio</a>
+	      </p>
+	      <a class="btn_vod f_semi" data-toggle="modal" data-target="#myVideo" ng-click="watchVideo()">WATCH OUR VIDEO</a>
+	    </div>
+	    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 location_text pull-right">
+	      <h2 class="f_strong">OUR MISSION</h2>
+	      <p>압구정 본점에서 1992년부터 시작된 파피루스는 현재 압구정, 광화문, 갤러리아, 분당 등<br />여러 매장에서 엄선된 컬렉션을 고객들에게 선 보이고 있습니다.<br /><br />파피루스의 컬렉션은 컨템포러리한 하이엔드 패션부터 클래식한 아이템까지 다양한 스펙트럼을 만들어 가고 있습니다. 언제나 새로운 아이템을 찾아 일본의 장인 작은 공방부터 유럽의 아방가르드한 신진 디자이너의 부띠끄까지 찾아가는 파피루스의 열정은 다른 곳에서는 찾아볼 수 없는 다양성과 세련된 스펙트럼을 만들어 가고있습니다.</p>
+	      <strong>Lorem Ipsum Dolor Sit Amet, Consectetuer Elit Eget Solor 1643</strong>
+	      <p>고객의 라이프스타일을 이해하고 새로운 스타일을 제안해 드림으로서 고객이 평소에는 알지못한 자신의 이미지를 찾아 고객님의 라이프스타일까지 트랜디하게바꿀수 있다고 믿고 있습니다. 이러한 20년의 경험과 노하우에서 나오는 컬렉션과 서비스는 오직 파피루스에서만 경험 하실 수 있습니다.</p>
+	    </div>
+	  </div>
+	  <p class="btn_top f_strong"><a href="#btn_top">TOP<span></span></a></p>
+	</div>
+      </div>
+      <!-- //Location 영역 -->
+      <!-- footer 영역 -->
+      <div class="footer_wrap">
+	<div class="address">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-xs-12 col-sm-1 col-md-2 col-lg-3">
+		<h2>PAPYRUS</h2>
+	      </div>
+	      <div class="col-xs-12 col-sm-10 col-md-8 col-lg-7 f_semi address_text">
+		5F Youngsang B/D, 66-17 Sinsa-dong, Gangnam-gu, Seoul, Korea   [135-897]<br />CONTACT l <a href="tel:02-3443-1015" class="call">02 3443 1015</a>&nbsp;&nbsp;&nbsp;papy@papy.co.kr&nbsp;&nbsp;&nbsp;BUSINESS HOUR l Mon to Fri  10:00 - 19:00
+	      </div>
+	      <!-- <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+	      CONTACT | <a href="tel:02-3443-1015" class="call">02 3443 1015</a>&nbsp;&nbsp;papy@papy.co.kr<br />OPEN | Mon to Fri - 10:00 - 19:00
+	      </div> -->
+	      <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2">
+		<div class="sns">
+		  <ul>
+		    <li><a href="https://www.facebook.com/pages/Papyrus/1431843287138986" target="_black" class="btn_over img-circle"><span class="facebook">페이스북</span></a></li>
+		    <li><a href="https://www.tumblr.com/blog/papyruseyewear" target="_black" class="btn_over img-circle"><span class="twitter">트위터</span></a></li>
+		    <li><a href="https://instagram.com/papyruseyewear" target="_black" class="btn_over img-circle"><span class="rss">인스타그램</span></a></li>
+		  </ul>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div  class="container copyright">
+	  <div class="row">
+	    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5"><h3 class="f_semi text-left"><span>SUBSCRIBE</span> TO OUR NEWS</h3></div>
+	    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	      <p>
+		<label for="email">email</label>
+		<input name="email" id="email" placeholder="E-mail" ng-model="sub_info.user" />
+		<button type="button" class="btn-default f_strong" data-toggle="modal" data-target="#myThx" ng-click="subscribe()">SIGN UP</button>
+	      </p>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="text f_semi">COPYRIGHT © 2015 PAPYRUS. ALL RIGHTS RESERVED.</div>
+	  </div>
+	  <div class="row sns">
+	    <ul>
+	      <li><a href="https://www.facebook.com/pages/Papyrus/1431843287138986" target="_black" class="btn_over img-circle"><span class="facebook">페이스북</span></a></li>
+	      <li><a href="#" class="btn_over img-circle"><span class="twitter">트위터</span></a></li>
+	      <li><a href="https://instagram.com/papyruseyewear" target="_black" class="btn_over img-circle"><span class="rss">인스타그램</span></a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      <!-- //footer 영역 -->
+   
+      <script type="text/javascript">
+       $(document).ready(function(){
+	 //네비게이션 스크롤
+	 $("#navbar li:eq(0)").click(function(){
+	   $.scrollTo( '#collection', 800);
+	 });
+	 $("#navbar li:eq(1)").click(function(){
+	   $.scrollTo( '#event', 800);
+	 });
+	 $("#navbar li:eq(2)").click(function(){
+	   $.scrollTo( '#location', 800);
+	 });
+
+	 $("a[href]").each(function(){
+	   var href = $(this).attr('href');
+	   if( href && href[0] =='#' )
+	     $(this).bind('click', function(event){
+	       event.preventDefault()
+
+	       var top_ = $(href).offset().top;
+	       $('body, html').animate({scrollTop:top_}, '800', 'swing', function() { 
+	       });
+	     });
+	 });
+
+	 //Tooltip 닫기
+	 $( ".tooltip_close" ).click(function() {
+	   $(".infor_tooltip").hide('slow');
+	 });
+
+	 //Tooltip 오픈
+	 $( ".tooltip_open" ).click(function() {
+	   $(".infor_tooltip").show('slow');
+	 });
+       });
+
+       $(document).ready(function(){
+	 $(".map").hide();
+	 $(".apgujung").show();
+	 
+	 //압구정
+	 $('.btn_ap').click(function(){
+	   $('.map').hide();
+	   $('.apgujung').show();
+	 });
+	 //광화문
+	 $('.btn_gw').click(function(){
+	   $('.map').hide();
+	   $('.gw').show();
+	 });
+	 //갤러리아
+	 $('.btn_gall').click(function(){
+	   $('.map').hide();
+	   $('.galleria').show();
+	 });
+	 //분당
+	 $('.btn_ak').click(function(){
+	   $('.map').hide();
+	   $('.ak').show();
+	 });
+	 //여의도
+	 $('.btn_yeoido').click(function(){
+	   $('.map').hide();
+	   $('.yeoido').show();
+	 });
+	 //대전
+	 $('.btn_daejeon').click(function(){
+	   $('.map').hide();
+	   $('.daejeon').show();
+	 });
+	 //신세계본점
+	 $('.btn_shin').click(function(){
+	   $('.map').hide();
+	   $('.shin').show();
+	 });
+	 //신세계강남
+	 $('.btn_gangnam').click(function(){
+	   $('.map').hide();
+	   $('.gangnam').show();
+	 });
+	 //스튜디오
+	 $('.btn_studio').click(function(){
+	   $('.map').hide();
+	   $('.studio').show();
+	 });
+       });
+
+       function bluring(){ 
+	 if(event.srcElement.tagName=="A"||event.srcElement.tagName=="IMG") document.body.focus();}
+       document.onfocusin=bluring;
+      </script>
+      <!-- 비디오 -->
+      <div class="modal fade" id="myVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content container">
+	    <div class="modal-body row col-lg-12">
+	      <!-- <embed src="img/website_link.mp4" autostart="false" play="false" loop="true" quality="high"></embed> -->
+	      <iframe src="https://www.youtube.com/embed/dFN9xoS4WyI?autoplay=0" frameborder="0" allowfullscreen></iframe>
+
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <!-- //비디오 -->
+      <!-- Modal 영역(이메일폼) -->
+      <div class="modal fade" id="myEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog ">
+	  <div class="modal-content container">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	    </div>
+	    <div class="modal-body row">
+	      <h4 class="col-md-3 col-lg-3 modal-title f_semi" id="myModalLabel">SUBSCRIBE<br />TO OUR NEWS</h4>
+	      <p class="col-md-9 col-lg-9"><input name="" placeholder="E-mail" ng-model="sub_info.user"  /> <button type="button" class="btn-default f_strong" data-dismiss="modal" data-toggle="modal" data-target="#myThx" ng-click="subscribe()">SIGN UP</button></p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <!-- //Modal 영역(이메일폼) -->
+      <!-- Modal 영역(완료) -->
+      <div class="modal fade" id="myThx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog thx">
+	  <div class="modal-content container">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	    </div>
+	    <div class="modal-body row">
+	      <p class="thx text-center f_semi">THANK YOU.</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <!-- //Modal 영역(완료) -->
+    </form>
+    </div>
+  </body>
+</html>
