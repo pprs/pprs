@@ -270,7 +270,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 }
 
 @media (max-width:768px){
-	.about .about_text{margin-left:20px;}
+	.about .about_text{margin-left:0px;}
 	.about .brand_name .top strong{margin:5% 0 0 0;}
 	.list_wrap > h2 span{line-height:39px;font-size:2.3em;position:absolute;width:100%;font-size:2.3em;top:40%;text-align:center;}
 
