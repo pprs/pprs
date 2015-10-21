@@ -79,7 +79,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 .about .about_text{margin-left:48px;font-size:24px;}
 .about .about_text > strong{display:block;font-size:2.0em;padding:25px 0;border-top:2px solid #ededed;border-bottom:2px solid #ededed;}
 .about .about_text > h2{margin:25px 0 25px;font-size:1.0em;}
-.about .about_text > p{letter-spacing:0 font-size:0.8em;}
+.about .about_text > p{letter-spacing:0; font-size:0.8em;}
 .about .con_slide .con_slide_text{margin:0 8%;}
 .about .con_slide .con_slide_text .sns li a{border: 2px solid #d1d1d1;}
 .about .con_slide{overflow:hidden;margin:75px auto;}
