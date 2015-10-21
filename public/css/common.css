@@ -243,7 +243,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 	.location_wrap .location{margin:3% 0 0;text-align:center;padding:0 10%;}
 	.location_wrap .location_con{text-align:center;line-height:25px;color:#666d70;padding:0;}
 	/*.location_wrap .location_con{padding:0;}*/
-	.location_wrap .location_con h3{margin:10px auto 3%;padding:0;width:132px;height:40px;}
+	.location_wrap .location_con h3{margin:10px auto 3%;padding:0;width:138px;height:40px;}
 	.location_wrap .location_con p{border-top:2px solid #ccc;border-bottom:2px solid #ccc;padding:4% 0;text-align:center;}
 	.location_wrap .location_con .btn_vod{display:none;}
 	.location_wrap .location_text{padding:0;}
