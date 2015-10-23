@@ -30,7 +30,7 @@ angular.module('pprsApp', [])
       // #11
       {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "1946", card_where: "France",
        about_ko: "디올과 파피루스가 또 다시 한번 일을 내기 시작했다. 올해 3월 디올의 첫 흑인 모델로 선정된 미국의 디바, 리한나와 콜라보레션으로 탄생한 블루블랙의 리미티드 에디션 SO-REAL. 그 중에서 한국에서는 파피루스에서만 S/S시즌 한정 독점 판매권을 가졌다고 한다. 전국적으로 리한나 SO-REAL을 판매 하고 있는 매장은 파피루스뿐이니, 발 아프게 다른데 돌아 다니지 말고 파피루스를 방문하면 모든 SO-REAL 제품을 착용해 볼 수 있다는 것이 한가지 팁!",
-       about_title: "Dior with New Muse “RIHANNA",
+       about_title: 'Dior with New Muse “RIHANNA"',
        about_subtitle: "New collection of Dior 2015",
        about_en: "Dior collaborated with Diva Rihanna and produced blue black version of SO-REAL. This will sell exclusively only in Papyrus for three months.",
        img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/12/1.jpg'},
