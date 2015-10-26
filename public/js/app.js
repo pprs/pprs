@@ -27,9 +27,43 @@ angular.module('pprsApp', [])
 
     $scope.event_db_container = [
 
+      // #14
+      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.10", card_where: "France",
+       about_ko: "영국의 대표 Vintage Eyewear로 손 꼽히는 Cutler and Gross가 또한번 파피루스와 손을 잡기 시작했다. 이번 칵테일 컬렉션을 파피루스에서 한국 최초로 공개를 한다고. 문화와 패션이 가장 다양하고 시크한 매력을 지녔던 80년대 영국 런던의 모습을 담은 이번 컬렉션을 누가 마다 할 수 있을 것인가.",
+       about_title: 'Cutler and Gross ‘s new collection is coming!',
+       about_subtitle: "New collection of Dior 2015",
+       about_en: "Cutler and Gross 2015 F/W Cocktail collection is now presented only in Papyrus. This collection represents the England 80’s glamorous life.",
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/15/1.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/15/2.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/15/3.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/15/4.png'}]},
+      
+
+      // #13
+      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.08", card_where: "France",
+       about_ko: "Papyrus가 쌓아온 정통성에 New Generation의 색을 입혔다! 핵심 아이덴티티를 유지하며 더욱 자유로워진 파피루스는 비단 로고뿐만 아니라 로고를 이용한 패턴에서도 찾을 수 있다. 전 파피루스 매장에 다양한 페이퍼 아트워크를 볼 수 있으니 매장을 방문해 가며 다른 점을 찾는 것도 색다른 재미가 아닐까.",
+       about_title: 'This is new Papyrus with Papyrus',
+       about_subtitle: "New collection of Dior 2015",
+       about_en: "Papyrus finalized their rebranding work. They spread their concept with paper, which is, their brand’s etymology.",
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/1.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/3.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/4.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/5.png'}]},
+
+      // #12
+      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.07", card_where: "France",
+       about_ko: "분당 AK 플라자에 아테네에서나 볼 법한 그리스 신전이 세워졌다. 새로 리뉴얼한 분당 파피루스는 4층으로 이동함으로써 더 넓은 공간을 확보하여 더 많은 볼거리를 고객들에게 제공하고 있다. 웅장함과 경외심을 가지게 하는 분당 파피루스에게 브라보를 외치고 싶다.",
+       about_title: 'Welcome back! Bundang Papyrus',
+       about_subtitle: "New collection of Dior 2015",
+       about_en: "Welcome back! Bundang Papyrus. Finally, finished the renewal of Bundang Papyrus. It is now located in 4th floor in AK Plaza",
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/2.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/3.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/4.png'}]},
+      
+
       // #11
-      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "1946", card_where: "France",
-       about_ko: "디올과 파피루스가 또 다시 한번 일을 내기 시작했다. 올해 3월 디올의 첫 흑인 모델로 선정된 미국의 디바, 리한나와 콜라보레션으로 탄생한 블루블랙의 리미티드 에디션 SO-REAL. 그 중에서 한국에서는 파피루스에서만 S/S시즌 한정 독점 판매권을 가졌다고 한다. 전국적으로 리한나 SO-REAL을 판매 하고 있는 매장은 파피루스뿐이니, 발 아프게 다른데 돌아 다니지 말고 파피루스를 방문하면 모든 SO-REAL 제품을 착용해 볼 수 있다는 것이 한가지 팁!",
+      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.06", card_where: "France",
+       about_ko: "디올과 파피루스가 또 다시 한번 일을 내기 시작했다! 첫 흑인 muse가 된 RIHANNA의 limited edition SO-REAL은 오직 파피루스에서만 기간한정 독점판매한다고 한다. 발품 팔지 말고 파피루스를 방문하면 SO-REAL전 제품을 볼 수 있는 것이 팁!",
        about_title: 'Dior with New Muse “RIHANNA"',
        about_subtitle: "New collection of Dior 2015",
        about_en: "Dior collaborated with Diva Rihanna and produced blue black version of SO-REAL. This will sell exclusively only in Papyrus for three months.",
@@ -39,8 +73,8 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/12/4.jpg'}]},
 
       // #10
-      {card_title:"Papyrus Event", card_body: "THE Promotion Event", card_since: "2015", card_where: "Korea",
-       about_ko: "언제나 사람을 깜짝 놀라게 만드는 파피루스는 한발 앞써 다가오는 여름의 시작을 알리기  시작했다. 유난히 내리 쬐는 태양 아래 톡톡 튀는 컬러와 다양한 선글라스로 여름 나기를 준비하는 것이 어떤가. 마치 하와이에 온듯한 네온컬러의 야자수 이미지는 보는 눈을 시원하게하여 쨍한 햇빛 아래 시원한 여름바람을 느끼게 해준다.",
+      {card_title:"Papyrus Event", card_body: "THE Promotion Event", card_since: "2015.06", card_where: "Korea",
+       about_ko: "언제나 사람을 깜짝 놀라게 만드는 파피루스는 한발 앞써 다가오는 여름의 시작을 알리기  시작했다. 유난히 내리 쬐는 태양 아래 톡톡 튀는 컬러와 다양한 선글라스로 여름 나기를 준비하는 것이 어떤가.",
        about_title: "BE READY FOR SUMMER, SUMMER IS JUST IS JUST AROUNT THE CORNER!",
        about_subtitle: "BE READY FOR SUMMER",
        about_en: "Hey guyz! Summer is just around the corner. Papyrus started the summer sales with new arrival sunglasses. Don't miss this great chance!",
@@ -50,8 +84,8 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/11/4.jpg'}]},
 
       // #9
-      {card_title:"Papyrus Event", card_body: "The HOLIDAY", card_since: "2014", card_where: "Korea",
-       about_ko: "서울 한복판에 세상과 소통하기 위한 예술 작품이 나타났다. 파피루스와 COL.L.AGE+가 콜라보레이션으로 진행한 Holiday Seasonal Project는 장승효 작가의 활기 넘치고 화려한 패턴처럼 고객들의 연말 연시도 누구보다 빛나길 바라는 마음으로 시작한 프로젝트라고. 감히 그 누가 아티스트와 편집샵의 콜라보레이션라 상상할 수 있겠는가. 실제로 매장에서 체스 게임을 할 수 있다하니 한번쯤 방문해서 체스게임을 해보는것도 나쁘지 않다고 생각한다.",
+      {card_title:"Papyrus Event", card_body: "The HOLIDAY", card_since: "2014.12", card_where: "Korea",
+       about_ko: "서울 한복판에 세상과 소통하기 위한 예술 작품이 나타났다! 파피루스와 COL.L.AGE+가 콜라보로 진행한 Holiday Seasonal Project는 장승효 작가의 화려한 패턴처럼 고객의 연말연시도 누구보다 빛나길 바라는 마음으로 시작한 프로젝트라고. 실제로 매장에서 체스게임을 할 수 있다니 한번쯤 방문해 볼 것.",
        about_title: "Holiday Seasonal Collaboration Project with COL.L.L.AGE+",
        about_subtitle: "Happy Holiday 2014",
        about_en: "Papyrus exhibited the remarkable art work by collaborating with COL.L.AGE+. They planned the event for hoping the customer had happy holiday.",
@@ -64,8 +98,8 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/10/7.jpg'}]},
       
       // #8
-      {card_title:"Papyrus Event", card_body: "Pre-launch Event", card_since: "2014", card_where: "Korea",
-       about_ko: "인생은 마치 체스와 같다는 벤자민 프랭클린의 말처럼, 눈 앞의 유행이 아닌 더 먼 트렌드의 흐름을 읽기 위해 파피루스가 나섰다. 누구나 소지하고 있는 제품이 아닌 누구나 소지하기 바라는 제품들을 내새워 파피루스만의 감각을 다시 한번 살렸다. Infinite mirror를 이용한 디스플레이로 마치 뉴욕의 마르지엘라 매장과 같은 느낌을 주어 화려한 변신을 하였으니 방문하는 사람마다 입을 다물지 못했다는 소문이.",
+      {card_title:"Papyrus Event", card_body: "Pre-launch Event", card_since: "2014.06", card_where: "Korea",
+       about_ko: "인생은 마치 체스와 같다는 벤자민 프랭클린의 말처럼, 눈 앞의 유행이 아닌 더 먼 트렌드의 흐름을 읽기 위해 파피루스가 나섰다. Infinite mirror를 이용한 디스플레이로 마치 유럽에 온듯한 느낌을 주어 화려한 변신을 하였으니 방문하는 사람마다 입을 다물지 못했다는 소문이!",
        about_title: "Life Is a Kind of Chess -Benjamin Franklin",
        about_subtitle: "What is Papyrus",
        about_en: "The concept of Papyrus was inspired from the intelligence and rational thinking involved in the chess - if you can see a good move, find a better move. Papyrus reads future trends instead of chasing the latest trend.",
@@ -75,8 +109,8 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/9/4.jpg'}]},
 
       // #7
-      {card_title:"Max Pittion", card_body: "The Launch Event", card_since: "1940", card_where: "France",
-       about_ko: "세계적인 뮤지션 존 메이어가 왔다! 잠실 종합운동장이 아닌 파피루스에! 왜? 프랑스의 빈티지 브랜드, 막스티피옹을 부활 시킨 존메이어, 그리고 그의 영원한 조력자이자 디타의 디자이너였던 토미오가라는 또다른 반란을 일으키기 시작했다. 오래전에 중단 되었던 막스피티옹 브랜드의 이름을 이어가기 위해 존 메이어는 자신의 이름을 숨기고 브랜드의 오너가 되었다. 앞으로 막스피티옹은 파피루스에서만 찾아볼 수 있으니 패션 피플은 참고 하시길.",
+      {card_title:"Max Pittion", card_body: "The Launch Event", card_since: "2014.05", card_where: "France",
+       about_ko: "세계적인 뮤지션 존 메이어가 왔다! 잠실 종합운동장이 아닌 파피루스에! 왜? 프랑스의 빈티지 브랜드, 막스티피옹을 부활시키기 위하여! 오래전에 중단된 브랜드를 살리기 위해, 존 메이어는 자신의 이름을 숨기고 오너가 되었다. 앞으로 막스피티옹은 파피루스에서만 찾아볼 수 있으니 패션 피플은 참고 하시길.",
        about_title: "JOHN MAYER IS COMING PAPYRUS, NOT STADIUM",
        about_subtitle: "Max Piton Launch Event",
        about_en: "World famous Singer-songwriter John Mayer presented the France vintage eyewear brand called Max Pittion. For brand launching in Korea, he visited Papyrus. You could see the Max Pittion only in Papyrus for a while.",
@@ -88,8 +122,8 @@ angular.module('pprsApp', [])
       
 
       // #6
-      {card_title:"Papyrus Event", card_body: "The HOLIDAY", card_since: "2013", card_where: "Korea",
-       about_ko: "2013년도를 무사히 마감하고 다가오는 신년을 맞이하는 마음에서 Papyrus가 진행하는 HAPPY HOLIDAY 행사는 고객들의 마음을 들뜨게 만들기에 모자람이 없었다. 산타클로스의 장갑을 본 따 만든 클리너, 고객들의 행복을 기원하는 메시지를 담은 한정 gift bag 등 다양한 이벤트로 기쁨을 전달하려는 파피루스 매장에서 포근함을 느껴보는 것도 나쁘지 않는 연말이 아닐까.",
+      {card_title:"Papyrus Event", card_body: "The HOLIDAY", card_since: "2013.12", card_where: "Korea",
+       about_ko: "2013년도를 무사히 마감하고 다가오는 신년을 맞이하는 HAPPY HOLIDAY! 산타클로스의 장갑 모양의 클리너, 고객들의 행복을 기원하는 메시지를 담은 한정 gift bag 등 다양한 이벤트로 기쁨을 전달하려는 파피루스 매장에서 포근함을 느껴보는 것도 나쁘지 않는 연말이 아닐까.",
        about_title: "We Wish Your HAPPY HAPPY HOLIDAY!",
        about_subtitle: "Happy Holiday 2013",
        about_en: "Papyrus celebrated the end of 2013, and welcomed the New Year with HAPPY HOLIDAY EVENT. The event's purpose was showing the love to the consumer with best wishes for a joyous day filled with love and laughter.",
@@ -101,7 +135,7 @@ angular.module('pprsApp', [])
       
 
       // #5
-      {card_title:"Dior Homme", card_body: "The Trunk Show", card_since: "1946", card_where: "France",
+      {card_title:"Dior Homme", card_body: "The Trunk Show", card_since: "2013.04", card_where: "France",
        about_ko: "이번 디올 옴므 컬렉션은 세계 최초로 디올 하우스가 아닌 파피루스 플래그쉽 스토어에서 선보인다! 세계 어디에서도 디올 옴 컬렉션을 프리런칭 한적이 없었지만 파피루스의 독창성에 디올하우스에서 먼저 제의 했다고 한다. 라프시몬스의 등장으로 디올의 새 컬렉션은 모던함을 입어 더욱 간결해지고, 더욱 시크해졌다. 남몰래 디올 옴므를 사랑해왔던 남성분들여, 이번 기회에 파피루스를 방문하여 라프 시몬스의 감각과 함께 파피루스의 아이덴티티를 느껴보라!",
        about_title: "New Dior Homme, The First Show Ever, But Only in Papyrus",
        about_subtitle: "Dior Homme 2013 collection",
@@ -113,8 +147,8 @@ angular.module('pprsApp', [])
       
 
       // #4
-      {card_title:"Papyrus Event", card_body: "THE RENOVATION", card_since: "2013", card_where: "Korea",
-       about_ko: "굳이 파리의 루브르 박물관이나 영국의 대영 박물관이 아닌 서울의 더 갤러리 파피루스를 방문하면 작품을 구경할 수 있다. 입장료도 없으니 천천히 작품을 감상 할 수 있다는게 또 다른 팁! 시카고 디자이너 팀과의 열띤 회의를 통해 기존의 이미지에서 탈피하고 귀중한 '제품'을 감상 할 수 있는 갤러리로 변모하였다. 마치 갤러리를 방문 한 듯한 획기적인 인테리어와 파리, 뉴욕, 밀란 쇼에서 초이스 해온 '작품'은 패션이라는 카테고리에 묶여 시대를 넘나드는 궁합이다.",
+      {card_title:"Papyrus Event", card_body: "THE RENOVATION", card_since: "2013.03", card_where: "Korea",
+       about_ko: "굳이 파리의 루브르나 뉴욕의 모마에 가지 않아도 서울의 더 갤러리 파피루스를 방문하면 작품을 구경할 수 있다. 획기적인 '인테리어'와 파리, 뉴욕, 밀란 쇼에서 초이스 해온 '작품'은 패션이라는 카테고리에 묶여 시대를 넘나드는 궁합이다.",
        about_title: "The Gallery Of The GALLERIA",
        about_subtitle: "The Gallery of The GALLERIA",
        about_en: 'Galleria Papyrus newly renovated the store. Papyrus had a heated agreement with Chicago Designer Team to deviate the old image and become the "Gallery" to enjoy the precious "art pieces”.',
@@ -125,11 +159,11 @@ angular.module('pprsApp', [])
       
 
       // #3
-      {card_title:"Papyrus Event", card_body: "THE RENOVATION", card_since: "2012", card_where: "Korea",
-       about_ko: "안경 산업계의 호화로 인해 주춤하였던 고객들을 다시 사로잡기 위해서 20년의 역사를 간직한 본점에 파피루스의 철학을 새겨넣기 시작했다. 새로 리노베이션하여 2층으로 확장된 파피루스는 고객들에게 귀중하며 값비싼 보석을 공개하듯 끌어 당기고 있다. 이번 리뉴얼 기념을 위해 grafik plastic 브랜드 데이 이벤트를 개최한다고. 그 뿐만 아니라 앞으로도 정기적인 브랜드 데이를 진행하여 다양한 하우스 브랜드의 가치를 선보일 예정이라고 한다.",
+      {card_title:"Papyrus Event", card_body: "THE RENOVATION", card_since: "2012.03", card_where: "Korea",
+       about_ko: "20년의 역사를 간직한 본점에 파피루스의 철학을 새겨넣기 시작했다. 2층으로 확장한 파피루스는 고객에게 값비싼 보석을 공개하듯 끌어 당기고 있다. 그 뿐 아니라 앞으로 정기적인 브랜드 데이를 진행하여 다양한 하우스 브랜드의 가치를 선보일 예정이라고 한다.",
        about_title: "WAIT! Papyrus is Back",
        about_subtitle: "We are back again!",
-       about_en: "All the hipster had been visited Papyrus once and became royal customer as they love Papyrus. To remember Papyrus's 20th anniversary, they produced limited edition frames.",
+       about_en: "All the customer's all the waited for a long time to reopened Papyrus Flagship store. Papyrus is keeping the precious and most valuable products and only presenting it for their consumers.",
        img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/3/1.jpg'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/3/2.jpg'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/3/3.jpg'},
@@ -137,8 +171,8 @@ angular.module('pprsApp', [])
       
       
       // #2
-      {card_title:"Papyrus Event", card_body: "THE ANNIVERSARY", card_since: "2012", card_where: "Korea",
-       about_ko: "패션피플이라면 누구나 한번쯤 방문하여 단골이 되고 만다는 파피루스. 국내 안경 트렌드를 이끌어 나가는 리더 답게 20주년을 기념하기 위해 여러가지 이벤트를 선보였다. 일본 최고의 안경 장인인 코닷케토베이와 타이하치로가 만든 프레임에 손재익 디자이너의 파피루스 20주년 그래픽이 합쳐진 제품을 한정판매하고 있으니 패션 피플이라면 빨리 매장에 방문해보는 것을 추천한다. 앞으로 더 큰 성장과 발전을 기대해볼만한 파피루스.",
+      {card_title:"Papyrus Event", card_body: "THE ANNIVERSARY", card_since: "2012.02", card_where: "Korea",
+       about_ko: "패션피플이라면 누구나 한번쯤 방문하여 단골이 되고 만다는 파피루스. 국내 안경 트렌드를 이끌어 나가는 리더답게 20주년을 기념하기 위해 여러가지 이벤트를 선보인다. 일본 최고의 안경 장인인 코닷케토베이와 타이하치로가 만든 콜라보 제품을 한정판매하고 있으니 패션 피플이라면 빨리 매장에 방문해볼 것!",
        about_title: "Let's Celebrate 20th anniversary of Papyrus!",
        about_subtitle: "20th Anniversary!",
        about_en: "All the hipster had been visited Papyrus once and became royal customer as they love Papyrus. To remember Papyrus's 20th anniversary, they produced limited edition frames.",
@@ -147,8 +181,8 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/2/3.jpg'}]},
 
       // #1
-      {card_title:"Papyrus Event", card_body: "THE FIRST START", card_since: "1992", card_where: "Korea",
-       about_ko: "1992년 드디어 우리가 기대하던 파피루스 아이웨어의 서막이 올랐다. 기존 안경 산업에서 탈피하여 인테리어에 하우스 브랜드를 접목시킴으로써, 그 둘의 환상의 하모니는 국내 최초 편집샵이라는 타이틀을 거머주게 만든것!  기존 샵들과 다르게 차별화된 전략으로 올 화이트로 세련된 인테리어와 다양한 상품 구성으로 이목을 이끌었다. 더불어 프레스와 스타마케팅을 통해 고객들에게 파피루스 브랜드를 선보일 수 있었던 것 또한 현명한 선택이었다.",
+      {card_title:"Papyrus Event", card_body: "THE FIRST START", card_since: "1992.12", card_where: "Korea",
+       about_ko: "1992년 드디어 우리가 기대하던 파피루스 아이웨어의 서막이 올랐다. 기존 안경산업에서 탈피한 국내 최초 편집샵이라는 타이틀을 거머쥐게 만든 것! 기존 샵들과 다르게 차별화된 전략으로 올 화이트의 세련된 인테리어와 다양한 상품 구성으로 이목을 이끌었다.",
        about_title: "The Beginning of Papyrus",
        about_subtitle: "The Beginning of Papyrus",
        about_en: '1992 is the year is called the beginning of Papyrus. Papyrus merged the interior and house brand in Korea to bring the idea of "multi-brand" store in Korea.',
