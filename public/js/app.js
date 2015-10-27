@@ -28,7 +28,7 @@ angular.module('pprsApp', [])
     $scope.event_db_container = [
 
       // #14
-      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.10", card_where: "France",
+      {card_title:"THE TRUNK SHOW", card_body: "CUTLER AND GROSS", card_since: "2015.10", card_where: "France",
        about_ko: "영국의 대표 Vintage Eyewear로 손 꼽히는 Cutler and Gross가 또한번 파피루스와 손을 잡기 시작했다. 이번 칵테일 컬렉션을 파피루스에서 한국 최초로 공개를 한다고. 문화와 패션이 가장 다양하고 시크한 매력을 지녔던 80년대 영국 런던의 모습을 담은 이번 컬렉션을 누가 마다 할 수 있을 것인가.",
        about_title: 'Cutler and Gross ‘s new collection is coming!',
        about_subtitle: "New collection of Dior 2015",
@@ -40,25 +40,27 @@ angular.module('pprsApp', [])
       
 
       // #13
-      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.08", card_where: "France",
+      {card_title:"LAUNCH EVENT", card_body: "PAPYRUS EVENT", card_since: "2015.08", card_where: "France",
        about_ko: "Papyrus가 쌓아온 정통성에 New Generation의 색을 입혔다! 핵심 아이덴티티를 유지하며 더욱 자유로워진 파피루스는 비단 로고뿐만 아니라 로고를 이용한 패턴에서도 찾을 수 있다. 전 파피루스 매장에 다양한 페이퍼 아트워크를 볼 수 있으니 매장을 방문해 가며 다른 점을 찾는 것도 색다른 재미가 아닐까.",
        about_title: 'This is new Papyrus with Papyrus',
        about_subtitle: "New collection of Dior 2015",
        about_en: "Papyrus finalized their rebranding work. They spread their concept with paper, which is, their brand’s etymology.",
        img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/1.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/2.png'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/3.png'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/4.png'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/5.png'}]},
 
       // #12
-      {card_title:"Dior", card_body: "THE TRUNK SHOW", card_since: "2015.07", card_where: "France",
+      {card_title:"THE RENOVATION", card_body: "PAPYRUS EVENT", card_since: "2015.07", card_where: "France",
        about_ko: "분당 AK 플라자에 아테네에서나 볼 법한 그리스 신전이 세워졌다. 새로 리뉴얼한 분당 파피루스는 4층으로 이동함으로써 더 넓은 공간을 확보하여 더 많은 볼거리를 고객들에게 제공하고 있다. 웅장함과 경외심을 가지게 하는 분당 파피루스에게 브라보를 외치고 싶다.",
        about_title: 'Welcome back! Bundang Papyrus',
        about_subtitle: "New collection of Dior 2015",
        about_en: "Welcome back! Bundang Papyrus. Finally, finished the renewal of Bundang Papyrus. It is now located in 4th floor in AK Plaza",
-       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/2.png'},
-		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/3.png'},
-		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/4.png'}]},
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/1.png'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/2.png'},
+                       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/3.png'},
+                       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/13/4.png'}]},
       
 
       // #11
