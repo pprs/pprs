@@ -17,17 +17,17 @@ a:hover,a:focus{cursor:pointer;}
 .navbar{margin:0;}
 .navbar-inverse{background-color:#222325;border:none;}
 .navbar-brand{float:none;text-align:center;width:54px;height:67px;padding:0;background-image:url('../img/logo.png');background-size:cover;}
-.navbar-header{float:none;margin:12px auto;text-align:center;}
+.navbar-header{float:none;margin:18px auto;text-align:center;}
 .navbar > .container .navbar-brand{margin-left:0;}
 .navbar-collapse.in{overflow-y:hidden;}
-.navbar-header .sns{position:absolute;top:15%;left:40px;width:200px;}
+.navbar-header .sns{position:absolute;top:19%;left:40px;width:200px;}
 .navbar-header .sns li, .share .sns li, .address .sns li{display:inline-block;margin:0 2%;}
 .navbar-header .sns li a, .share .sns li a, .address .sns li a, .footer_wrap .copyright .sns li a{display:inline-block;text-indent:-99999px;overflow:hidden;border: 1px solid #393a3b;padding:14px;text-align:center; margin-top:7px;}
 .navbar-header .sns li a span, .share .sns li a span, .address .sns li a span, .footer_wrap .copyright .sns li a span{display:block;background-color:transparent;background-repeat:no-repeat;vertical-align:middle;zoom:1;width:22px;height:22px;background-image:url('../img/icon_sns.png');}
 .navbar-header .sns li a span.facebook, .share .sns li a span.facebook, .address .sns li a span.facebook, .footer_wrap .copyright .sns li a span.facebook{background-position:0 0;}
 .navbar-header .sns li a span.twitter, .share .sns li a span.twitter, .address .sns li a span.twitter, .footer_wrap .copyright .sns li a span.twitter{background-position:-22px 0;}
 .navbar-header .sns li a span.rss, .share .sns li a span.rss, .address .sns li a span.rss, .footer_wrap .copyright .sns li a span.rss{background-position:-44px 0;}
-.navbar-header .nav_btn{position:absolute;top:17%;right:40px}
+.navbar-header .nav_btn{position:absolute;top:21%;right:40px}
 .navbar-header .nav_btn button.btn_subs{letter-spacing:2px;background-color: transparent;margin:1.5% 75px 1.5% 11px;display:inline-block;border:1px solid #393a3b;border-radius:30px;padding:13px 35px;color:#b8c5c6;}
 .navbar-header .nav_btn .navbar-toggle{display:block;border-radius:50%;width:52px;height:52px;margin:-54px 1.3% 0;text-align:center;}
 .navbar-header .nav_btn .navbar-toggle .icon-bar{text-align:center;margin:5px auto;width:initial;background-color:#97a1a2;}
@@ -43,7 +43,7 @@ a:hover,a:focus{cursor:pointer;}
 .carousel-caption{z-index:10;padding-bottom:7%;}
 .carousel-caption .btn{background-color:transparent;color:#fff;}
 .carousel-caption .btn:hover, .carousel-caption .btn:focus{border:1px solid #fff;}
-.carousel .item{background-color:#777;}
+.carousel .item{background-color:#777;margin-top:72px;}
 .carousel-inner > .item > img{min-width:100%;}
 .carousel-inner > .item > img.pc{display:block;}
 .carousel-inner > .item > img.mobile{display:none;}
