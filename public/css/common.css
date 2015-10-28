@@ -281,7 +281,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 	.carousel-inner > .item > img.pc{display:none;}
 	.carousel-inner > .item > img.mobile{display:block;}
 	.carousel-caption{padding:18%;}
-	.list_wrap li a{max-height:170px;}
+	.list_wrap li a{max-height:180px;}
 	.list_wrap li a h3{height:20px;font-size:0.7em;}
 	.list_wrap li a em{font-size:0.5em;margin-top:20px;}
 	.list_wrap li a span{font-size:0.8em;}
