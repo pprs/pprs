@@ -43,7 +43,7 @@ a:hover,a:focus{cursor:pointer;}
 .carousel-caption{z-index:10;padding-bottom:7%;}
 .carousel-caption .btn{background-color:transparent;color:#fff;}
 .carousel-caption .btn:hover, .carousel-caption .btn:focus{border:1px solid #fff;}
-.carousel .item{background-color:#777;margin-top:72px;}
+.carousel .item{background-color:#777;}
 .carousel-inner > .item > img{min-width:100%;}
 .carousel-inner > .item > img.pc{display:block;}
 .carousel-inner > .item > img.mobile{display:none;}
