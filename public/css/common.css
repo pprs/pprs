@@ -212,7 +212,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 	.navbar-brand{width:29px;height:36px;}
 	
 	.carousel .item{background-color:#777;margin-top:40px;}
-	.carousel-caption{padding-bottom:30px;}
+	.carousel-caption{padding-bottom:30px;margin-bottom:20px;}
 	.carousel-control{left:5%;}
 	.carousel-control.right{right:5%;}
 	.carousel-indicators li{margin:0 4px !important;}
