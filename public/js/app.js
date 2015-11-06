@@ -40,7 +40,7 @@ angular.module('pprsApp', [])
       
 
       // #13
-      {card_title:"LAUNCH EVENT", card_body: "RE-BRANDING", card_since: "2015.08", card_where: "Korea",
+      {card_title:"RE-BRANDING", card_body: "LAUNCH EVENT", card_since: "2015.08", card_where: "Korea",
        about_ko: "Papyrus가 쌓아온 정통성에 New Generation의 색을 입혔다! 핵심 아이덴티티를 유지하며 더욱 자유로워진 파피루스는 비단 로고뿐만 아니라 로고를 이용한 패턴에서도 찾을 수 있다. 전 파피루스 매장에 다양한 페이퍼 아트워크를 볼 수 있으니 매장을 방문해 가며 다른 점을 찾는 것도 색다른 재미가 아닐까.",
        about_title: 'This is new Papyrus with Papyrus',
        about_subtitle: "New collection of Dior 2015",
