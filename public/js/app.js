@@ -28,7 +28,7 @@ angular.module('pprsApp', [])
     $scope.event_db_container = [
 
       // #14
-      {card_title:"THE TRUNK SHOW", card_body: "CUTLER AND GROSS", card_since: "2015.10", card_where: "Korea",
+      {card_title:"CUTLER AND GROSS", card_body: "THE TRUNK SHOW", card_since: "2015.10", card_where: "Korea",
        about_ko: "영국의 대표 Vintage Eyewear로 손 꼽히는 Cutler and Gross가 또한번 파피루스와 손을 잡기 시작했다. 이번 칵테일 컬렉션을 파피루스에서 한국 최초로 공개를 한다고. 문화와 패션이 가장 다양하고 시크한 매력을 지녔던 80년대 영국 런던의 모습을 담은 이번 컬렉션을 누가 마다 할 수 있을 것인가.",
        about_title: 'Cutler and Gross ‘s new collection is coming!',
        about_subtitle: "New collection of Dior 2015",
