@@ -111,10 +111,10 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 .list_wrap .row{width:100%;text-align:center;margin:70px auto 20px;}
 .list_wrap .col-lg-3{width:22%;}
 .list_wrap li{float:none;display:inline-block;border:2px solid #d1d1d1;border-radius:5px;text-align:center;margin:0 1% 2%;}
-.list_wrap li a{max-height:330px;overflow:hidden;padding:62px 34px;color:#838c8d;}
+.list_wrap li a{max-height:280px;overflow:hidden;padding:62px 34px;color:#838c8d;}
 .list_wrap li a h3{height:48px;color:#3b3d40;font-size:1.2em;margin-bottom:30px;line-height:25px;}
 .list_wrap li a em{display:block;}
-.list_wrap li a span{display:block;margin-top:30px;padding-top:50px;border-top:2px solid #ccc;}
+.list_wrap li a span{display:block;margin-top:30px;padding-top:30px;border-top:2px solid #ccc;}
 .list_wrap p.btn_wrap{overflow:hidden;margin:0 2.5%;}
 .list_wrap .btn_more{width:100%;max-width:1568px;margin:0 auto;background-color:#5c5d5f;border-radius:5px;padding:15px 0;color:#fff;font-size:24px}
 
