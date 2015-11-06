@@ -111,7 +111,7 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/9/4.jpg'}]},
 
       // #7
-      {card_title:"Max Pittion", card_body: "The Launch Event", card_since: "2014.05", card_where: "France",
+      {card_title:"Max Pittion", card_body: "Max Pittion", card_since: "2014.05", card_where: "Korea",
        about_ko: "세계적인 뮤지션 존 메이어가 왔다! 잠실 종합운동장이 아닌 파피루스에! 왜? 프랑스의 빈티지 브랜드, 막스티피옹을 부활시키기 위하여! 오래전에 중단된 브랜드를 살리기 위해, 존 메이어는 자신의 이름을 숨기고 오너가 되었다. 앞으로 막스피티옹은 파피루스에서만 찾아볼 수 있으니 패션 피플은 참고 하시길.",
        about_title: "JOHN MAYER IS COMING PAPYRUS, NOT STADIUM",
        about_subtitle: "Max Piton Launch Event",
@@ -137,7 +137,7 @@ angular.module('pprsApp', [])
       
 
       // #5
-      {card_title:"Dior Homme", card_body: "Dior Homme", card_since: "2013.04", card_where: "France",
+      {card_title:"Dior Homme", card_body: "Dior Homme", card_since: "2013.04", card_where: "Korea",
        about_ko: "이번 디올 옴므 컬렉션은 세계 최초로 디올 하우스가 아닌 파피루스 플래그쉽 스토어에서 선보인다! 세계 어디에서도 디올 옴 컬렉션을 프리런칭 한적이 없었지만 파피루스의 독창성에 디올하우스에서 먼저 제의 했다고 한다. 라프시몬스의 등장으로 디올의 새 컬렉션은 모던함을 입어 더욱 간결해지고, 더욱 시크해졌다. 남몰래 디올 옴므를 사랑해왔던 남성분들여, 이번 기회에 파피루스를 방문하여 라프 시몬스의 감각과 함께 파피루스의 아이덴티티를 느껴보라!",
        about_title: "New Dior Homme, The First Show Ever, But Only in Papyrus",
        about_subtitle: "Dior Homme 2013 collection",
