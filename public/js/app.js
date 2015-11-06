@@ -52,7 +52,7 @@ angular.module('pprsApp', [])
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/14/5.png'}]},
 
       // #12
-      {card_title:"THE RENOVATION", card_body: "THE RENOVATION", card_since: "2015.07", card_where: "Korea",
+      {card_title:"THE RENOVATION", card_body: "PAPYRUS EVENT", card_since: "2015.07", card_where: "Korea",
        about_ko: "분당 AK 플라자에 아테네에서나 볼 법한 그리스 신전이 세워졌다. 새로 리뉴얼한 분당 파피루스는 4층으로 이동함으로써 더 넓은 공간을 확보하여 더 많은 볼거리를 고객들에게 제공하고 있다. 웅장함과 경외심을 가지게 하는 분당 파피루스에게 브라보를 외치고 싶다.",
        about_title: 'Welcome back! Bundang Papyrus',
        about_subtitle: "New collection of Dior 2015",
