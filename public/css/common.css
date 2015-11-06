@@ -219,7 +219,7 @@ a.left.carousel-control, a.right.carousel-control{z-index:50;background:none;}
 	.about_wrap{padding:0 8%;}
 	.about .brand_name{width:100%;margin:0 0 10% 0;}
 	.about .brand_name .top{padding:5% 10% 5%;}
-	.about .brand_name .top strong{width:144px;height:24px;margin:5% 0 0 0;}
+	.about .brand_name .top strong{width:262px;height:24px;margin:5% -5px 0 -5px;}
 	.about .about_text{margin-left:30px;}
 	.about .about_text > strong{font-size:1.5em;text-align:center;padding:3% 0;line-height:1.2;}
 	.about .about_text > h2{font-size:0.8em;text-align:center;margin:8% 0 8%;}
