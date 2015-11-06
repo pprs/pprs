@@ -64,7 +64,7 @@ angular.module('pprsApp', [])
       
 
       // #11
-      {card_title:"Dior", card_body: "Muse Rihanna", card_since: "2015.06", card_where: "Korea",
+      {card_title:"Dior", card_body: "Dior", card_since: "2015.06", card_where: "Korea",
        about_ko: "디올과 파피루스가 또 다시 한번 일을 내기 시작했다! 첫 흑인 muse가 된 RIHANNA의 limited edition SO-REAL은 오직 파피루스에서만 기간한정 독점판매한다고 한다. 발품 팔지 말고 파피루스를 방문하면 SO-REAL전 제품을 볼 수 있는 것이 팁!",
        about_title: 'Dior with New Muse “RIHANNA"',
        about_subtitle: "New collection of Dior 2015",
