@@ -211,7 +211,7 @@
 	    <ul>
 		<li ng-repeat="e in event_container" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 		  <a href="#collection" class="a" ng-click="event($index)">
-		    <h3 class="f_strong">{{e.card_body | uppercase}}<br />{{e.name}}</h3>
+		    <h3 class="f_strong">{{e.card_title | uppercase}}<br />{{e.name}}</h3>
 		    <em>Since {{e.card_since}}, {{e.card_where}}</em>
 		    <span class="f_semi">READ MORE</span>
 		  </a>
