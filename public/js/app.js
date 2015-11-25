@@ -29,10 +29,10 @@ angular.module('pprsApp', [])
     	
       // #15
       {card_title:"LOTOS", card_body: "THE TRUNK SHOW", card_since: "2015.11", card_where: "Korea",
-       about_ko: "영국의 대표 Vintage Eyewear로 손 꼽히는 Cutler and Gross가 또한번 파피루스와 손을 잡기 시작했다. 이번 칵테일 컬렉션을 파피루스에서 한국 최초로 공개를 한다고. 문화와 패션이 가장 다양하고 시크한 매력을 지녔던 80년대 영국 런던의 모습을 담은 이번 컬렉션을 누가 마다 할 수 있을 것인가.",
+       about_ko: "갤러리아와 플래그쉽스토어의 프라이빗한 공간에서 진행되는 Lotos의 두 번째 서울 in-store event. 유럽왕실의 보석사에서 시작하여 쥬얼리 아이웨어의 정점을 찍은 로토스의 예술품을 파피루스라는 박물관에서 단 이틀동안 독점 공개되니 기회를 꼭 잡으시길!",
        about_title: 'LOTOS ‘s new collection is coming!',
        about_subtitle: "New collection of LOTOS 2015",
-       about_en: "Cutler and Gross 2015 F/W Cocktail collection is now presented only in Papyrus. This collection represents the England 80’s glamorous life.",
+       about_en: "We would like to present the most precious jewelry art eyewear brand, Lotos. It presents only in Papyrus for two days.",
        img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/16/01.png'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/16/02.png'},
 		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/16/03.png'},
