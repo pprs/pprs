@@ -26,6 +26,17 @@ angular.module('pprsApp', [])
 
 
     $scope.event_db_container = [
+
+      // #16
+      {card_title:"STARRY NIGHT", card_body: "THE TRUNK SHOW", card_since: "2015.12", card_where: "Korea",
+       about_ko: "12개의 달과 365일의 하루. 오늘을 마지막처럼, 내일을 처음처럼. 새로운 길을 만드는 당신을 위하여, 2015의 끝과 2016의 시작에서 당신의 이정표가 되고 싶은 마음을 담아 파피루스에서 화려한 별밤을 선물해 드립니다.",
+       about_title: 'Glamorous starry Night',
+       about_subtitle: "STARRY NIGHT EVENT",
+       about_en: "Papyrus gives the present the glamorous starry night to you in between end of 2015 and start of 2016 with all of our heart.",
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/17/01.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/17/02.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/17/03.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/17/04.jpg'}]},
     	
       // #15
       {card_title:"LOTOS", card_body: "THE TRUNK SHOW", card_since: "2015.11", card_where: "Korea",
