@@ -27,6 +27,17 @@ angular.module('pprsApp', [])
 
     $scope.event_db_container = [
 
+      // #17
+      {card_title:"Papyrus Event", card_body: "SUMMER'S ARRIVAL", card_since: "2016.06", card_where: "Korea",
+       about_ko: "언제나 사람을 깜짝 놀라게 만드는 파피루스는 서프라이즈 sale과 함께 성큼 다가온 여름의 시작을 알리기  시작했다. 유난히 내리 쬐는 태양 아래 톡톡 튀는 컬러와 다양한 선글라스로 여름 나기를 준비하자!",
+       about_title: '2016 BE READY FOR SUMMER’S ARRIVAL',
+       about_subtitle: "SUMMER'S ARRIVAL 2016",
+       about_en: "Hey guyz! Summer is just around the corner. Papyrus started the summer sales with new arrival sunglasses. Don't miss this great chance!",
+       img_container: [{img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/18/01.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/18/02.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/18/03.jpg'},
+		       {img:'https://s3-ap-northeast-1.amazonaws.com/papyrus.eyewear/18/04.jpg'}]},
+
       // #16
       {card_title:"STARRY NIGHT", card_body: "THE TRUNK SHOW", card_since: "2015.12", card_where: "Korea",
        about_ko: "12개의 달과 365일의 하루. 오늘을 마지막처럼, 내일을 처음처럼. 새로운 길을 만드는 당신을 위하여, 2015의 끝과 2016의 시작에서 당신의 이정표가 되고 싶은 마음을 담아 파피루스에서 화려한 별밤을 선물해 드립니다.",
