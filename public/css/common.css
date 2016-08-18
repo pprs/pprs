@@ -17,7 +17,7 @@ a:hover,a:focus{cursor:pointer;}
 .navbar{margin:0;}
 .navbar-inverse{background-color:#222325;border:none;}
 .navbar-brand{float:none;text-align:center;width:54px;height:67px;padding:0;background-image:url('../img/logo.png');background-size:cover;}
-.navbar-header{float:none;margin:18px auto;text-align:center;}
+.navbar-header{float:none;margin:17px auto;text-align:center;}
 .navbar > .container .navbar-brand{margin-left:0;}
 .navbar-collapse.in{overflow-y:hidden;}
 .navbar-header .sns{position:absolute;top:19%;left:40px;width:200px;}
